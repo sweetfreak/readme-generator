@@ -1,30 +1,32 @@
-# readme-generator
-
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for information about my application repository
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled 
-'
-Description, 
-Table of Contents, 
-Installation, 
-Usage, 
-License, 
-Contributing, 
-Tests, 
-Questions
-'
 
 
-WHEN I enter my project title
-THEN this is displayed as the title of the README
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
+# ReadMe-Generator Readme
 
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
+## Table of Contents
+* [Overview](#Overview)
+* [Installation](#Installation)
+* [Walkthrough](#Walkthrough)
+* [Usage](#Usage)
+* [License](#License) 
+* [Questions](#Questions)
+
+## Overview
+This is ReadMe Generator. By entering your answers into the console line, you should be able to generator a readme very easily.
+
+## Installation
+First, be sure to install Node on your computer. NPM and Inquirer should be built into the application, so you won't need to install them. Simple type "node index" into the terminal, or "node {your root here}.index.html".
+
+## Walkthrough
+[[Watch the video]](https://youtu.be/O0B7n1CSMgQ)
+
+
+## Usage
+This can be used to create ReadMe files. The user must simply answer the questions when prompted, and the ReadMe will be automatically generated and distributed into the "dist" folder
+
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+            
+
+    

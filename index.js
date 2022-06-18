@@ -121,9 +121,6 @@ const promptUser = () => {
 };
 
 promptUser()
-//THIS IS NOT RIGHT
-// I need to get the info from promptUser into an array
-//or something so it can be put through the generate readme function.
     .then(promptUserData => {
         return generateReadme(promptUserData);
     })
